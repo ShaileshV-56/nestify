@@ -175,3 +175,77 @@ form.register-form button:hover {
     width: 80vh;
     margin: 2rem auto;
 }
+
+/* Responsive Styles for Mobile Devices */
+@media (max-width: 768px) {
+    body {
+        padding: 0 0.5rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar .fa-compass {
+        font-size: 1.5rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+        padding: 0.3rem 0;
+    }
+
+    .container {
+        padding: 0.5rem;
+    }
+
+    .f-info {
+        height: auto;
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+    }
+
+    .f-info-links,
+    .f-info-socials,
+    .f-info-brand {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .listing-card {
+        margin-bottom: 1.5rem;
+    }
+
+    .card-img-top {
+        height: 25vh;
+    }
+
+    form.register-form {
+        width: 90%;
+        margin: 1.5rem auto;
+        padding: 1.5rem;
+    }
+
+    form.register-form input,
+    form.register-form button {
+        font-size: 1rem;
+    }
+
+    .homepage h2 {
+        font-size: 1.8rem;
+    }
+
+    .homepage p {
+        font-size: 1rem;
+    }
+
+    #map {
+        width: 100%;
+        height: 300px;
+        margin: 1rem auto;
+    }
+}
